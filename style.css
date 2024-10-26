@@ -1,0 +1,100 @@
+/* Colors and fonts */
+
+#logo {
+width: 80px;
+border-radius: 50px;
+}
+
+body {
+background: lightblue;
+color: darkblue;
+font-family: 'Lato', sans-serif;
+font-size: 20px;
+font-weight: bold;
+}
+
+h1 {
+color: darkblue;
+font-size: 38px;
+}
+
+h1, h2 {
+font-family: 'Lato', sans-serif;
+}
+
+h2 {
+color: lightskyblue;
+font-size: 28px;
+font-weight: Lighter;
+}
+
+a {
+text-decoration: none;
+color: darkblue;
+font-weight: bold;
+}
+a:hover{
+text-decoration: underline;
+color: lightskyblue;
+}
+
+/* Custom design with class */
+
+.container {
+width: 700px;
+margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+  width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+  width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+  width: 400px;
+  }
+}
+
+.card-white{
+background: white;
+padding: 50px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 5px;
+margin: 15px 0px;
+text-align: center;
+}
+.btn {
+background-color: darkblue;
+color: lightskyblue;
+padding: 15px 20px;
+border-radius: 5px;
+}
+.btn:hover {
+background-color: lightskyblue;
+color: darkblue;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+display: inline;
+padding: 10px;
+}
+.list-inline i {
+font-size: 50px;
+}
+
+#introduction p {
+margin-bottom: 40px;
+}
